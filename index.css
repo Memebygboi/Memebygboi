@@ -1,5 +1,6 @@
 .item1 {
   grid-area: Header;
+  background-color: cc123;
 }
 
 .item2 {
