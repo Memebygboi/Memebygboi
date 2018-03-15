@@ -1,6 +1,5 @@
 .item1 {
   grid-area: Header;
-  background-color: cc123;
 }
 
 .item2 {
@@ -29,7 +28,8 @@
 
 .grid-container {
   display: grid;
-  grid-template-areas: 'header header header header header header' 'link1 link1 link2 link2 link3 link3' 'Wspace main main main main main' 'Wspace footer footer footer footer footer' grid-gap: 10px;
+  grid-template-areas: 'Header Header Header Header Header Header' 'Link1 Link1 Link2 Link2 Link3 Link3' 'Wspace Main Main Main Main Main' 'Wspace Footer Footer Footer Footer Footer'; 
+  grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
 }
