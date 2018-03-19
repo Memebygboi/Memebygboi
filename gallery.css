@@ -3,32 +3,24 @@
 }
 
 .item2 {
-  grid-area: Link1;
+  grid-area: Link;
 }
 
 .item3 {
-  grid-area: Link2;
-}
-
-.item4 {
   grid-area: Wspace;
 }
 
-.item5 {
-  grid-area: Link3;
-}
-
-.item6 {
+.item4 {
   grid-area: Main;
 }
 
-.item7 {
+.item5 {
   grid-area: Footer;
 }
 
 .grid-container {
   display: grid;
-  grid-template-areas: 'Header Header Header Header Header Header' 'Link1 Link1 Link2 Link2 Link3 Link3' 'Wspace Main Main Main Main Main' 'Wspace Footer Footer Footer Footer Footer'; 
+  grid-template-areas: 'Header Header Header Header Header Header' 'Link Link Link Link Link Link' 'Wspace Main Main Main Main Main' 'Wspace Footer Footer Footer Footer Footer'; 
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
